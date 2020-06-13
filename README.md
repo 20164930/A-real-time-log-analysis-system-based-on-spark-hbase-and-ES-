@@ -1,1 +1,2 @@
-# A-real-time-log-analysis-system-based-on-spark-hbase-and-ES-
+There are 3 packages this project. They are  calculation module,synchronization module and web
+ module.
