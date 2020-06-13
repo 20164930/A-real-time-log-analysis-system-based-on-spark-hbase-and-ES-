@@ -1,0 +1,24 @@
+
+server:
+  port: 8080
+
+spring:
+  mvc:
+    static-path-pattern: /**
+    view:
+      suffix: .html
+      prefix: /html/
+
+elasticsearch:
+  hostname: aliyun1
+  port: 9200
+
+hbase:
+  zookeeper:
+    quorum: aliyun1,aliyun2,aliyun3
+    property:
+      clientPort: 2181
+
+zookeeper:
+  znode:
+    parent: /hbase
